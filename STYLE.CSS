@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   padding:40px; 
+    min-height: 100vh;
+    background-color:#A6CDC6;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+}
+.box{
+    height: 250px;
+    width: 350px;
+    background-color:aqua;
+    border: 1px solid none;
+    margin: 10px;
+    background-position: center;
+background-size: cover;
+filter: grayscale(100%);
+
+}
+.box:hover{
+    border: 5px solid #ffffff;
+    filter: grayscale(0%);
+   transform: scale(110%);
+   transition: all ease-in-out 0.5s;
+border-radius: 20px;
+}
+
+.box:first-child{
+    background-image: url(https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.box:nth-child(2){
+    background-image: url(https://images.pexels.com/photos/2962124/pexels-photo-2962124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.box:nth-child(3){
+    background-image: url(https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box:nth-child(4){
+    background-image: url(https://images.pexels.com/photos/731082/pexels-photo-731082.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box:nth-child(5){
+    background-image: url(https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+.box:nth-child(6){
+    background-image: url(https://images.pexels.com/photos/3935333/pexels-photo-3935333.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+}
+.box:nth-child(7){
+    background-image: url(https://images.pexels.com/photos/221540/pexels-photo-221540.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+}
+.box:nth-child(8){
+    background-image: url(https://images.pexels.com/photos/3958954/pexels-photo-3958954.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+}
+.box:last-child{
+    background-image: url(https://images.pexels.com/photos/10486074/pexels-photo-10486074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
